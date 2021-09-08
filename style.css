@@ -25,6 +25,8 @@ img{
     position: relative;
     margin-right: 15px;
     margin-bottom: 100px;
+    margin-top: 20px;
+    transform: translateY(0px);
 }
 
 .article-column > div{
@@ -54,6 +56,7 @@ img{
     position: absolute;
     left: 0;
     bottom: 20px;
+    z-index: 62;
 }
 
 ul{
@@ -68,6 +71,7 @@ ul{
     position: absolute;
     top: 35px;
     right: 0%;
+    z-index: 61;
 }
 
 ul{
@@ -91,4 +95,21 @@ ul{
 
 .original{
     text-decoration: line-through;
+}
+
+
+.column-left:hover {
+    transform: translateY(2px);
+}
+
+.img_top{
+    display: none;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: 50;
+}
+
+.img_container:hover .img_top{
+    display: inline;
 }
