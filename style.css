@@ -46,7 +46,7 @@ body{
 .tag{
     position: absolute;
     left: 0;
-    bottom: 25px;
+    bottom: 100px;
 }
 
 .heart{
@@ -56,7 +56,27 @@ body{
     position: absolute;
     top: 30px;
     right: 0%;
+}
 
+ul{
+    list-style: none;
+    border-bottom: 3px;
+}
 
+.brand, .price{
+    font-size: 1.3rem;
+}
 
+.item_name{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.discounted{
+    color: red;
+    font-weight: bold;
+}
+
+.original{
+    text-decoration: line-through;
 }
