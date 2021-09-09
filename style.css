@@ -63,7 +63,7 @@ ul{
     list-style: none;
 }
 
-#heart{
+.heart{
     font-size: 4rem;
     background-color: white;
     padding: 5px 20px;
